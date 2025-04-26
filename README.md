@@ -6,7 +6,7 @@ This project uses machine learning techniques to detect phishing emails and mali
 
 Due to file size limits on GitHub, datasets are hosted externally:
 
-- 📥 [Phishing Email Dataset (CSV)](https://drive.google.com/your-email-csv-link)
+- 📥 [Phishing Email Dataset (CSV)]([https://drive.google.com/your-email-csv-link](https://drive.google.com/file/d/1TysDjLFyh6JfYPYfBBubHXPGRgVoCaRv/view?usp=sharing))
 - 📥 [Phishing URL Dataset (Excel)](https://drive.google.com/your-url-excel-link)
 
 ## 📁 Project Files
