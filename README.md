@@ -97,7 +97,7 @@ Tech Stack:
 
 ---
 
-## 📄 Report
+## 📚 Project Report
 
-For detailed experiments, feature engineering, and model evaluations, please refer to:  
-➡ [Phishing_Detection_Report.docx]
+For detailed experiments and model evaluations, please refer to the [📄 Phishing Detection Report](https://1drv.ms/w/c/28b256fa2cca3b47/EUCRjqn9RF1PuqilAOVIuXQBK2ZrDMbYVEOj4HegHPjLpg?e=AJaskP).
+
