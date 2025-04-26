@@ -8,7 +8,7 @@ Due to file size limits on GitHub, datasets are hosted externally:
 
 - 📥 [Phishing Email Dataset (CSV)](https://drive.google.com/uc?export=download&id=1TysDjLFyh6JfYPYfBBubHXPGRgVoCaRv
 )
-- 📥 [Phishing URL Dataset (Excel)](https://drive.google.com/your-url-excel-link)
+- 📥 [Phishing URL Dataset (Excel)](https://drive.google.com/uc?export=download&id=17V0KJekiGFGz7bUBFUzd4MmQR3CX0hmU)
 
 ## 📁 Project Files
 
