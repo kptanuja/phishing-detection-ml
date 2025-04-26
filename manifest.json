@@ -1,0 +1,47 @@
+{
+  "manifest_version": 3,
+  "name": "Phishing Email & URL Checker",
+  "version": "1.0",
+  "description": "Check emails and URLs for phishing attempts using machine learning.",
+  
+  "background": {
+    "service_worker": "background.js"
+  },
+  
+  "permissions": [
+    "storage",
+    "activeTab",
+    "contextMenus"
+  ],
+  
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+
+  "commands": {
+    "check-phishing": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+P"
+      },
+      "description": "Check for phishing attempt"
+    }
+  }
+}
