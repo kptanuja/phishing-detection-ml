@@ -28,43 +28,6 @@ Tech Stack:
 
 ---
 
-Architecture Diagram:
-
-plaintext
-          +---------------------+
-          |   Datasets           |
-          | (Emails / URLs)      |
-          +----------+----------+
-                     |
-                     v
-          +---------------------+
-          | Data Preprocessing   |
-          | (Cleaning, Feature   |
-          | Extraction, Encoding)|
-          +----------+----------+
-                     |
-                     v
-          +---------------------+
-          | Machine Learning     |
-          | (Training & Evaluation)|
-          +----------+----------+
-                     |
-                     v
-          +---------------------+
-          | Model Serialization  |
-          | (Pickle files)        |
-          +----------+----------+
-                     |
-                     v
-          +---------------------+
-          | Flask Web App (app.py)|
-          | (Real-time Prediction |
-          | API Interface)        |
-          +---------------------+
-
-
----
-
 ## 📊 Dataset
 
 > Note: Due to GitHub file size limitations, datasets are hosted externally.
