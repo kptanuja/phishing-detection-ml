@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Email & URL Detector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Phishing Email & URL Detector</h1>
+            <p>Detect suspicious emails and URLs in real-time</p>
+        </header>
+
+        <div class="form-container">
+            <div class="input-section">
+                <h2>Check Email for Phishing</h2>
+                <textarea id="email-input" placeholder="Paste the email text here"></textarea>
+                <button id="email-check-btn">Check Email</button>
+            </div>
+
+            <div class="input-section">
+                <h2>Check URL for Phishing</h2>
+                <input type="text" id="url-input" placeholder="Enter URL to check">
+                <button id="url-check-btn">Check URL</button>
+            </div>
+
+            
+                <!-- Result box for Email -->
+            <div id="result" class="result hidden">
+                <p id="result-text"></p>
+            </div>
+  
+                 <!-- Result box for URL -->
+            <div id="url-result" class="result hidden">
+                <p id="url-result-text"></p>
+            </div>
+  
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
